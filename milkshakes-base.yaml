@@ -53,6 +53,7 @@ packages:
   - 'espeakup'
   - 'exfatprogs'
   - 'f2fs-tools'
+  - 'flatpak'
   - 'fatresize'
   - 'gpart'
   - 'gptfdisk'

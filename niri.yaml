@@ -6,6 +6,7 @@ packages:
   - 'niri'
   - 'fuzzel'
   - 'swaylock'
+  - 'blend-web-store-git'
   - 'firefox'
   - 'sddm'
   - 'alacritty'
