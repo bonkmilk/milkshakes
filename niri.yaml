@@ -4,6 +4,8 @@ track: 'milkshakes-base'
 
 packages:
   - 'niri'
+  - 'fuzzel'
+  - 'swaylock'
   - 'firefox'
   - 'sddm'
   - 'alacritty'
@@ -15,4 +17,4 @@ services:
   - 'sddm'
 
 commands:
-  - 'sudo -u "#1000" syncthing --no-browser --home="/home/milk-crates" &'
+  - 'sudo -u "#1000" syncthing serve --no-browser --home="/home/milk-crates" &'
