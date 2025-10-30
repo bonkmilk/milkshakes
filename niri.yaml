@@ -1,0 +1,18 @@
+impl: 'https://github.com/bonkmilk/milkshakes/raw/main'
+
+track: 'blendos-base'
+
+packages:
+  - 'niri'
+  - 'firefox'
+  - 'sddm'
+  - 'alacritty'
+  - 'zellij'
+  - 'syncthing'
+  
+
+services:
+  - 'sddm'
+
+commands:
+  - 'syncthing serve'
