@@ -12,6 +12,16 @@ packages:
   - 'alacritty'
   - 'zellij'
   - 'syncthing'
+  - 'xdg-desktop-portal-gtk'
+  - 'xdg-desktop-portal-gnome'
+  - 'gnome-keyring'
+  - 'nautilus'
+  - 'swaync'
+  - 'waybar'
+  - 'swayidle'
+  - 'wofi'
+  - 'xorg-xwayland'
+  - 'fish'
   
 
 services:
