@@ -31,7 +31,7 @@ packages:
   
 aur-packages:
   - 'wl-clipboard-rs'
-  - 'kickoff'
+  - 'kickoff-git'
 
 services:
   - 'sddm'
