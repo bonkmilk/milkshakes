@@ -25,7 +25,7 @@ repo: 'https://pkg-repo.blendos.co/'
 
 impl: 'https://github.com/bonkmilk/milkshakes/raw/main'
 
-track: 'milkshakes-base'
+track: 'niri'
 
 packages:
     - 'micro'
