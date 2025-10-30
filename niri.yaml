@@ -1,6 +1,6 @@
 impl: 'https://github.com/bonkmilk/milkshakes/raw/main'
 
-track: 'blendos-base'
+track: 'milkshakes-base'
 
 packages:
   - 'niri'
