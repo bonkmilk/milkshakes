@@ -9,7 +9,6 @@ packages:
   - 'fuzzel'
   - 'gnome-keyring'
   - 'kanshi'
-  - 'kickoff'
   - 'nautilus'
   - 'niri'
   - 'nushell'
@@ -32,6 +31,7 @@ packages:
   
 aur-packages:
   - 'wl-clipboard-rs'
+  - 'kickoff'
 
 services:
   - 'sddm'
