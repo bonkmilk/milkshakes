@@ -15,4 +15,4 @@ services:
   - 'sddm'
 
 commands:
-  - 'syncthing serve'
+  - 'sudo -u "#1000" syncthing --no-browser --home="/home/milk-crates" &'
