@@ -1,4 +1,4 @@
-# blendOS Tracks
+# Milshake Flavors (BlendOS Tracks)
 
 * GNOME: `gnome`
 * Plasma: `plasma`
@@ -6,25 +6,26 @@
 * LXQT: `lxqt`
 * MATE: `mate`
 * XFCE: `xfce`
+* Niri: `niri`
 
-## Example GNOME `/system.yaml` (vanilla)
-
-```
-repo: 'https://pkg-repo.blendos.co/'
-
-impl: 'https://github.com/blend-os/tracks/raw/main'
-
-track: 'gnome'
-```
-
-## Example GNOME `/system.yaml` with Caddy
+## Example Niri `/system.yaml` (vanilla)
 
 ```
 repo: 'https://pkg-repo.blendos.co/'
 
-impl: 'https://github.com/blend-os/tracks/raw/main'
+impl: 'https://github.com/bonkmilk/milkshakes/raw/main'
 
-track: 'gnome'
+track: 'niri'
+```
+
+## Example Niri `/system.yaml` with Caddy
+
+```
+repo: 'https://pkg-repo.blendos.co/'
+
+impl: 'https://github.com/bonkmilk/milkshakes/raw/main'
+
+track: 'milkshakes-base'
 
 packages:
     - 'micro'
