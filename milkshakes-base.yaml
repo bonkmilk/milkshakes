@@ -1,20 +1,29 @@
 track: 'custom'
 
 packages:
-  - 'alsa-utils'
   - 'amd-ucode'
   - 'arch-install-scripts'
   - 'archlinux-keyring'
 
   - 'b43-fwcutter'
   - 'base-devel'
-  - 'bat'
+  - 'bat'                        #oxidized
+
+# Terminal Emulators, Shells, Consoles, Etc.
   - 'bash'
   - 'bash-completion'
+  - 'nushell'                    #oxidized
+  - 'zellij'                     #oxidized
+  - 'starship'                   #oxidized
+
   - 'bind'
+
+  # BlendOS Components
   - 'blend'
   - 'blend-settings'
-  - 'bottom'
+
+
+  - 'bottom'                     #oxidized
   - 'brltty'
   - 'broadcom-wl-dkms'
   - 'btrfs-progs'
@@ -32,11 +41,11 @@ packages:
   - 'efibootmgr'
   - 'espeakup'
   - 'exfatprogs'
-  - 'eza'
+  - 'eza'                       #oxidized
 
   - 'f2fs-tools'
   - 'fatresize'
-  - 'fd'
+  - 'fd'                         #oxidized
   - 'file'
   - 'filesystem-blend'
   - 'findutils'
@@ -55,7 +64,7 @@ packages:
   - 'gzip'
 
   - 'hdparm'
-  - 'helix'
+  - 'helix'                      #oxidized
   - 'hyperv'
 
   - 'intel-ucode'
@@ -85,7 +94,7 @@ packages:
   - 'modemmanager'
   - 'mtools'
 
-  - 'navi'
+  - 'navi'                          #oxidized
   - 'nbd'
   - 'ndisc6'
   - 'nfs-utils'
@@ -128,15 +137,15 @@ packages:
   
   
   - 'rsync'
-  - 'skim'
+  - 'skim'                  #oxidized
   - 'smartmontools'
   - 'sof-firmware'
   - 'squashfs-tools'
   - 'sudo'
-  - 'sudo-rs'
+  - 'sudo-rs'               #oxidized
   - 'syslinux'
-  - 'systeroid'
-  - 'tealdeer'
+  - 'systeroid'             #oxidized
+  - 'tealdeer'              #oxidized
   - 'tcpdump'
   - 'tpm2-tss'
   - 'udftools'
@@ -150,18 +159,16 @@ packages:
   - 'wvdial'
   - 'xfsprogs'
   - 'xl2tpd'
-  - 'yazi'
-  - 'bluez'
+  - 'yazi'                  #oxidized
   - 'networkmanager'
   - 'cups'
   - 'ttf-jetbrains-mono'
   
 aur-packages:
-  - 'paru'
+  - 'paru'                  #oxidized
 
 services:
   - 'cups'
-  - 'bluetooth'
   - 'NetworkManager'
   - 'power-profiles-daemon'
 
