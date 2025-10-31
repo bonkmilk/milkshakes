@@ -32,6 +32,7 @@ packages:
 aur-packages:
   - 'wl-clipboard-rs'
   - 'kickoff-git'
+  - 'blueberry-wayland'
 
 services:
   - 'sddm'
