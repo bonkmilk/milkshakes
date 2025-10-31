@@ -20,7 +20,7 @@ packages:
   - 'pipewire-audio'      #audio (components)
   - 'pipewire-pulse'      #audio (PulseAudio compat)
   - 'pipewire-alsa'       #audio (alsa compat)
-  - 'pipewire-bluetooth'  #audio (bluetooth-support)
+# where did i imagine this package????  - 'pipewire-bluetooth'  #audio (bluetooth-support)
   - 'wireplumber'         #audio (session manager)
 
   
