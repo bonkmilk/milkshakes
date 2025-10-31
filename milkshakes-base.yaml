@@ -7,14 +7,20 @@ packages:
 
   - 'b43-fwcutter'
   - 'base-devel'
-  - 'bat'                        #oxidized
 
-# Terminal Emulators, Shells, Consoles, Etc.
+# Terminal Emulators, Shells, Editors, CLI Etc.
   - 'bash'
   - 'bash-completion'
-  - 'nushell'                    #oxidized
-  - 'zellij'                     #oxidized
-  - 'starship'                   #oxidized
+  - 'nushell'                     #oxidized
+  - 'zellij'                      #oxidized
+  - 'starship'                    #oxidized
+  - 'yazi'                        #oxidized
+  - 'television'
+  - 'bat'                         #oxidized
+  - 'eza'                         #oxidized
+  - 'fd'                          #oxidized
+  - 'helix'                       #oxidized
+
 
   - 'bind'
 
@@ -23,7 +29,7 @@ packages:
   - 'blend-settings'
 
 
-  - 'bottom'                     #oxidized
+  - 'bottom'                      #oxidized
   - 'brltty'
   - 'broadcom-wl-dkms'
   - 'btrfs-progs'
@@ -41,11 +47,9 @@ packages:
   - 'efibootmgr'
   - 'espeakup'
   - 'exfatprogs'
-  - 'eza'                       #oxidized
 
   - 'f2fs-tools'
   - 'fatresize'
-  - 'fd'                         #oxidized
   - 'file'
   - 'filesystem-blend'
   - 'findutils'
@@ -64,7 +68,6 @@ packages:
   - 'gzip'
 
   - 'hdparm'
-  - 'helix'                      #oxidized
   - 'hyperv'
 
   - 'intel-ucode'
