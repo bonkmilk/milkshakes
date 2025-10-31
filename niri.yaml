@@ -3,15 +3,15 @@ impl: 'https://github.com/bonkmilk/milkshakes/raw/main'
 track: 'milkshakes-base'
 
 packages:
-  - 'alacritty'
+  - 'alacritty' #oxidized
   - 'blend-web-store-git'
   - 'firefox'
   - 'fuzzel'
   - 'gnome-keyring'
   - 'kanshi'
   - 'nautilus'
-  - 'niri'
-  - 'nushell'
+  - 'niri'#oxidized
+  - 'nushell' #oxidized
   - 'polkit-kde-agent'
   - 'sddm'
   - 'swaybg'
@@ -27,11 +27,11 @@ packages:
   - 'xdg-desktop-portal-gnome'
   - 'xdg-desktop-portal-gtk'
   - 'xwayland-satellite'
-  - 'zellij'
+  - 'zellij'#oxidized
   
 aur-packages:
-  - 'wl-clipboard-rs'
-  - 'kickoff-git'
+  - 'wl-clipboard-rs'#oxidized
+  - 'kickoff-git' #oxidized
   - 'blueberry-wayland'
 
 services:
