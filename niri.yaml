@@ -3,36 +3,57 @@ impl: 'https://github.com/bonkmilk/milkshakes/raw/main'
 track: 'milkshakes-base'
 
 packages:
-  - 'alacritty'
-  - 'blend-web-store-git'
-  - 'firefox'
-  - 'fuzzel'
-  - 'gnome-keyring'
-  - 'kanshi'
-  - 'nautilus'
-  - 'niri'
-  - 'nushell'
-  - 'polkit-kde-agent'
-  - 'sddm'
+  - 'niri'                #oxidized compositor
+
+# Userspace GUI Applications
+  - 'alacritty'           #oxidized terminal
+  - 'blend-web-store-git' #FIX???
+  - 'firefox'             #Browser
+  - 'nautilus'            #File Explorer GUI
+  
+  
+  # audio services, compatability, and extensions
+  - 'alsa-lib'            #low-level audio hardware support
+  - 'alsa-utils'          #CLI also utilities
+  - 'pipewire'            #audio (core)
+  - 'pipewire-audio'      #audio (components)
+  - 'pipewire-pulse'      #audio (PulseAudio compat)
+  - 'pipewire-alsa'       #audio (alsa compat)
+  - 'pipewire-bluetooth'  #audio (bluetooth-support)
+  - 'wireplumber'         #audio (session manager)
+
+  
+
+
+# Wayland sway/wlroots utilities
   - 'swaybg'
   - 'swaylock'
   - 'swayidle'
   - 'swaync'
+  - 'waybar'
+  - 'wofi'
+  - 'xwayland-satellite'
+
+
   - 'syncthing'
   - 'udiskie'
-  - 'waybar'
   - 'waydroid'
   - 'waydroid-image'
-  - 'wofi'
+
+# System Level Tools and Services
+  - 'kanshi'                          #Modular Monitor Layout Configurator
   - 'xdg-desktop-portal-gnome'
   - 'xdg-desktop-portal-gtk'
-  - 'xwayland-satellite'
-  - 'zellij'
+  - 'gnome-keyring'
+  - 'polkit-kde-agent'
+  - 'sddm'
+  - 'fuzzel'
+
   
 aur-packages:
-  - 'wl-clipboard-rs'
-  - 'kickoff-git'
-  - 'blueberry-wayland'
+  - 'wl-clipboard-rs'                 #oxidized wayland clipboard utility
+  - 'kickoff-git'                     #oxidized launcher
+  - 'blueberry-wayland'               #(s)way/wlroots bluetooth GUI
 
 services:
   - 'sddm'
