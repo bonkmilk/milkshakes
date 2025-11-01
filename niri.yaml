@@ -10,7 +10,6 @@ packages:
   - 'blend-web-store-git' #FIX???
   - 'firefox'             #Browser
   - 'nautilus'            #File Explorer GUI
-  - 'popsicle'            #oxidized
   
   
   # audio services, compatability, and extensions
@@ -56,6 +55,7 @@ aur-packages:
   - 'wl-clipboard-rs'                 #oxidized wayland clipboard utility
   - 'kickoff-git'                     #oxidized launcher
   - 'blueberry-wayland'               #(s)way/wlroots bluetooth GUI
+  - 'popsicle'            #oxidized
 
 services:
   - 'sddm'
