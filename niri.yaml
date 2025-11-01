@@ -10,6 +10,7 @@ packages:
   - 'blend-web-store-git' #FIX???
   - 'firefox'             #Browser
   - 'nautilus'            #File Explorer GUI
+  - 'popsicle'            #oxidized
   
   
   # audio services, compatability, and extensions
