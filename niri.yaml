@@ -10,6 +10,7 @@ packages:
   - 'blend-web-store-git' #FIX???
   - 'firefox'             #Browser
   - 'nautilus'            #File Explorer GUI
+  - 'gparted'             #Disk paritition mgmt
   
   
   # audio services, compatability, and extensions
