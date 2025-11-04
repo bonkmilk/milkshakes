@@ -66,6 +66,7 @@ aur-packages:
   - 'blueberry-wayland'               #(s)way/wlroots bluetooth GUI
   - 'popsicle'                        #oxidized
   - 'bazaar'                          #flathub store
+  - 'polkit-explorer-git'             #policypermission GUI
   
 services:
   - 'sddm'
