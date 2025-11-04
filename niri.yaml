@@ -10,7 +10,17 @@ packages:
   - 'blend-web-store-git' #FIX???
   - 'firefox'             #Browser
   - 'nautilus'            #File Explorer GUI
+
+  
+# GNOME UI
+  - 'gnome-shell-extension-dash-to-dock'
+  - 'gnome-shell-extension-blur-my-shell'
+  - 'gnome-shell-extension-appindicator'
+  - 'gnome-initial-setup'
   - 'gparted'             #Disk paritition mgmt
+
+  #GNOME utils
+  - 'gsettings'
   
   
   # audio services, compatability, and extensions
@@ -21,11 +31,9 @@ packages:
   - 'pipewire-audio'      #audio (components)
   - 'pipewire-pulse'      #audio (PulseAudio compat)
   - 'pipewire-alsa'       #audio (alsa compat)
-# where did i imagine this package????  - 'pipewire-bluetooth'  #audio (bluetooth-support)
   - 'wireplumber'         #audio (session manager)
 
   
-
 
 # Wayland sway/wlroots utilities
   - 'swaybg'
@@ -50,17 +58,19 @@ packages:
   - 'polkit-kde-agent'
   - 'sddm'
   - 'fuzzel'
+  - 'fprintd'
 
   
 aur-packages:
   - 'wl-clipboard-rs'                 #oxidized wayland clipboard utility
   - 'kickoff-git'                     #oxidized launcher
   - 'blueberry-wayland'               #(s)way/wlroots bluetooth GUI
-  - 'popsicle'            #oxidized
+  - 'popsicle'                        #oxidized
 
 services:
   - 'sddm'
   - 'bluetooth'
+  - 'fprintd'
 
 
 commands:
