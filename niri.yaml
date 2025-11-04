@@ -7,7 +7,6 @@ packages:
 
 # Userspace GUI Applications
   - 'alacritty'           #oxidized terminal
-  - 'blend-web-store-git' #FIX???
   - 'firefox'             #Browser
   - 'nautilus'            #File Explorer GUI
 
@@ -22,8 +21,6 @@ packages:
   #GNOME utils
   - 'gsettings-desktop-schemas'
   - 'gsettings-system-schemas'
-  - 'dconf-editor'
-  
   
   # audio services, compatability, and extensions
   - 'alsa-lib'            #low-level audio hardware support
@@ -68,7 +65,8 @@ aur-packages:
   - 'kickoff-git'                     #oxidized launcher
   - 'blueberry-wayland'               #(s)way/wlroots bluetooth GUI
   - 'popsicle'                        #oxidized
-
+  - 'bazaar'                          #flathub store
+  
 services:
   - 'sddm'
   - 'bluetooth'
