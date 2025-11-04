@@ -183,7 +183,7 @@ aur-packages:
   - 'system76-power'        #oxidized power profiles daemon
   - 'tuckr'                 #oxidized dot-file mgmt
   - 'rooster'               #oxidized password mgmt
-  - 'cloak'                 #oxidized OTP gen
+#  - 'cloak'                 #oxidized OTP gen !!INSTALLER BROKEN!!
   - 'xcp'                   #oxidized modernized cp extension
   
 
