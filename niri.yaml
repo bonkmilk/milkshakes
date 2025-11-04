@@ -20,7 +20,9 @@ packages:
   - 'gparted'             #Disk paritition mgmt
 
   #GNOME utils
-  - 'gsettings'
+  - 'gsettings-desktop-schemas'
+  - 'gsettings-system-schemas'
+  - 'dconf-editor'
   
   
   # audio services, compatability, and extensions
