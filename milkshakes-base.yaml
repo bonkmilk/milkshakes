@@ -11,16 +11,33 @@ packages:
 # Terminal Emulators, Shells, Editors, CLI Etc.
   - 'bash'
   - 'bash-completion'
-  - 'nushell'                     #oxidized
-  - 'zellij'                      #oxidized
-  - 'starship'                    #oxidized
-  - 'yazi'                        #oxidized
-  - 'television'
-  - 'bat'                         #oxidized
-  - 'eza'                         #oxidized
-  - 'fd'                          #oxidized
-  - 'helix'                       #oxidized
+  - 'nushell'                      #oxidized modern shell
+  - 'zellij'                       #oxidized multiplexer
+  - 'starship'                     #oxidized shell prompt
+  - 'yazi'                         #oxidized TUI file explorer
+  - 'television'                   #oxidized fuzzy finder
+  - 'skim'                         #oxidized fuzy finder
+  - 'bat'                          #oxidized cat swap
+  - 'eza'                          #oxidized ls swap
+  - 'fd'                           #oxidized find swap
+  - 'helix'                        #oxidized neovim is to vim, what helix is to neovim
+  - 'gitui'                        #oxidized lazygit
+  - 'pueue'                        #oxidized queue processes, continue off ssh 
+  - 'just'                         #oxidized recipe commands
+  - 'ripgrep'                      #oxidized grep
+  - 'bottom'                       #oxidized top
+  - 'navi'                         #oxidized command cheatsheets
+  - 'tealdeer'                     #oxidized tldr (short, sweet, manpage quick overviews)
+  - 'procs'                        #oxidized, ps processes swap-in
+  - 'broot'                        #oxidized, filetree view
+  - 'sudo-rs'                      #oxidized sudo
+  - 'systeroid'                    #oxidized systctl(8)
+  - 'zoxide'                       #oxidized, modern cd swap
+  - 'dust'                         #oxidized du swap, disk usage
 
+
+  
+  
 
   - 'bind'
 
@@ -29,7 +46,6 @@ packages:
   - 'blend-settings'
 
 
-  - 'bottom'                      #oxidized
   - 'brltty'
   - 'broadcom-wl-dkms'
   - 'btrfs-progs'
@@ -97,7 +113,6 @@ packages:
   - 'modemmanager'
   - 'mtools'
 
-  - 'navi'                          #oxidized
   - 'nbd'
   - 'ndisc6'
   - 'nfs-utils'
@@ -140,15 +155,11 @@ packages:
   
   
   - 'rsync'
-  - 'skim'                  #oxidized
   - 'smartmontools'
   - 'sof-firmware'
   - 'squashfs-tools'
   - 'sudo'
-  - 'sudo-rs'               #oxidized
   - 'syslinux'
-  - 'systeroid'             #oxidized
-  - 'tealdeer'              #oxidized
   - 'tcpdump'
   - 'tpm2-tss'
   - 'udftools'
@@ -162,13 +173,19 @@ packages:
   - 'wvdial'
   - 'xfsprogs'
   - 'xl2tpd'
-  - 'yazi'                  #oxidized
   - 'networkmanager'
   - 'cups'
   - 'ttf-jetbrains-mono'
   
 aur-packages:
   - 'paru'                  #oxidized
+  - 'rip2-git'              #oxidized (>>rm)
+  - 'system76-power'        #oxidized power profiles daemon
+  - 'tuckr'                 #oxidized dot-file mgmt
+  - 'rooster'               #oxidized password mgmt
+  - 'cloak'                 #oxidized OTP gen
+  - 'xcp'                   #oxidized modernized cp extension
+  
 
 services:
   - 'cups'
