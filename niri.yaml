@@ -58,6 +58,7 @@ packages:
   - 'sddm'
   - 'fuzzel'
   - 'fprintd'
+  - 'kdeconnect'
 
   
 aur-packages:
