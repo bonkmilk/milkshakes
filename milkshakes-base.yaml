@@ -136,7 +136,7 @@ packages:
   - 'psmisc'
   - 'pv'
 
- - 'samba'
+  - 'samba'
   - 'sed'
   - 'shadow'
   - 'systemd'
