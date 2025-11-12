@@ -137,7 +137,6 @@ packages:
   - 'pv'
 
   - 'sed'
-  - 'sfdisk'
   - 'shadow'
   - 'systemd'
   - 'systemd-sysvcompat'
