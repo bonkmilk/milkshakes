@@ -9,7 +9,7 @@ packages:
   - 'alacritty'           #oxidized terminal
   - 'firefox'             #Browser
   - 'nautilus'            #File Explorer GUI
-  - 'nautilus-share'      #samba extension for nautilus
+#  - 'nautilus-share'      #samba extension for nautilus
 
   
 # GNOME UI
