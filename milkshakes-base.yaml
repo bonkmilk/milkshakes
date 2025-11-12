@@ -34,7 +34,6 @@ packages:
   - 'systeroid'                    #oxidized systctl(8)
   - 'zoxide'                       #oxidized, modern cd swap
   - 'dust'                         #oxidized du swap, disk usage
-  - '
 
 
   
