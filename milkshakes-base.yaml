@@ -16,7 +16,7 @@ packages:
   - 'starship'                     #oxidized shell prompt
   - 'yazi'                         #oxidized TUI file explorer
   - 'television'                   #oxidized fuzzy finder
-  - 'skim'                         #oxidized fuzy finder
+  - 'skim'                         #oxidized fuzzy finder
   - 'bat'                          #oxidized cat swap
   - 'eza'                          #oxidized ls swap
   - 'fd'                           #oxidized find swap
@@ -34,6 +34,7 @@ packages:
   - 'systeroid'                    #oxidized systctl(8)
   - 'zoxide'                       #oxidized, modern cd swap
   - 'dust'                         #oxidized du swap, disk usage
+  - '
 
 
   
@@ -137,6 +138,7 @@ packages:
   - 'pv'
 
   - 'sed'
+  - 'sfdisk'
   - 'shadow'
   - 'systemd'
   - 'systemd-sysvcompat'
@@ -185,7 +187,7 @@ aur-packages:
 #  - 'rooster'               #oxidized password mgmt
 #  - 'cloak'                 #oxidized OTP gen !!INSTALLER BROKEN!!
   - 'xcp'                   #oxidized modernized cp extension
-  
+  - 'disktui'               #oxidized TUI partition manager 
 
 services:
   - 'cups'
