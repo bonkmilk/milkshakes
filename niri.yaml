@@ -17,6 +17,7 @@ packages:
   - 'gnome-shell-extension-appindicator'
   - 'gnome-initial-setup'
   - 'gparted'             #Disk paritition mgmt
+  - 'polkit-gnome'
 
   #GNOME utils
   - 'gsettings-desktop-schemas'
@@ -54,7 +55,6 @@ packages:
   - 'xdg-desktop-portal-gnome'
   - 'xdg-desktop-portal-gtk'
   - 'gnome-keyring'
-  - 'polkit-kde-agent'
   - 'sddm'
   - 'fuzzel'
   - 'fprintd'
