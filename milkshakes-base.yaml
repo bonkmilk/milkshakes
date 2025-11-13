@@ -72,11 +72,11 @@ packages:
   - 'dust'                         #oxidized du swap, disk usage
 
 # Homeserver components
- - 'samba'
- - 'gvfs-smb'
- - 'gvfs-mtp'
- - 'gvfs-nfs'
- - 'gvfs-wsdd'
+  - 'samba'
+  - 'gvfs-smb'
+  - 'gvfs-mtp'
+  - 'gvfs-nfs'
+  - 'gvfs-wsdd'
   
   
 
