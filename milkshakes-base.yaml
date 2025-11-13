@@ -1,16 +1,52 @@
 track: 'custom'
 
 packages:
-  - 'amd-ucode'
+
+  # linux core systems
+  - 'coreutils'
+  - 'dmidecode'
+  - 'linux-zen'
+  - 'linux-zen-headers'
+  - 'linux-atm'
+  - 'linux-firmware'
+  - 'linux-firmware-marvell'
+
+# Network and Internet core utils
+  - 'bind'                        #DNS protocol
+  - 'broadcom-wl-dkms'            #broadcam drivers
+  - 'dhclient'                    #DHCP protocol
+  - 'dnsmasq'
+  - 'iproute2'
+  - 'iputils'
+  - 'openconnect'
+  - 'openssh'
+  - 'openvpn'
+
+# arch core systems
   - 'arch-install-scripts'
   - 'archlinux-keyring'
-
-  - 'b43-fwcutter'
   - 'base-devel'
+
+  - 'mkinitcpio'
+  - 'mkinitcpio-archiso'
+  - 'mkinitcpio-nfs-utils'
+  - 'pacman'
+
+
+  - 'amd-ucode'
+  - 'b43-fwcutter'
+
+  # BlendOS Components
+  - 'blend'
+  - 'blend-settings'
+  - 'filesystem-blend'
 
 # Terminal Emulators, Shells, Editors, CLI Etc.
   - 'bash'
   - 'bash-completion'
+  - 'findutils'
+
+  # Expanded and oxidized Terminal features
   - 'nushell'                      #oxidized modern shell
   - 'zellij'                       #oxidized multiplexer
   - 'starship'                     #oxidized shell prompt
@@ -35,40 +71,34 @@ packages:
   - 'zoxide'                       #oxidized, modern cd swap
   - 'dust'                         #oxidized du swap, disk usage
 
-
+# Homeserver components
+ - 'samba'
+ - 'gvfs-smb'
+ - 'gvfs-mtp'
+ - 'gvfs-nfs'
+ - 'gvfs-wsdd'
   
   
 
-  - 'bind'
-
-  # BlendOS Components
-  - 'blend'
-  - 'blend-settings'
 
 
-  - 'brltty'
-  - 'broadcom-wl-dkms'
+
+
+# accessability features
+  - 'brltty'                      # terminal screen-reader support
+
   - 'btrfs-progs'
   - 'bzip2'
-
-  - 'coreutils'
   - 'cryptsetup'
-
-  - 'dhclient'
-  - 'dmidecode'
-  - 'dnsmasq'
   - 'dosfstools'
-
   - 'e2fsprogs'
   - 'efibootmgr'
   - 'espeakup'
   - 'exfatprogs'
-
   - 'f2fs-tools'
   - 'fatresize'
   - 'file'
-  - 'filesystem-blend'
-  - 'findutils'
+  
   - 'flatpak'
   - 'fwupd'
 
@@ -87,29 +117,24 @@ packages:
   - 'hyperv'
 
   - 'intel-ucode'
-  - 'iproute2'
-  - 'iputils'
-  - 'irssi'
+
+  - 'irssi'                  # irc/text chat implementation
 
   - 'less'
   - 'licenses'
   - 'lshw'
   - 'libfido2'
   - 'libusb-compat'
-  - 'linux-zen'
-  - 'linux-zen-headers'
-  - 'linux-atm'
-  - 'linux-firmware'
-  - 'linux-firmware-marvell'
 
+
+
+  
   - 'man-db'
   - 'man-pages'
   - 'mc'
   - 'mdadm'
   - 'memtest86+'
-  - 'mkinitcpio'
-  - 'mkinitcpio-archiso'
-  - 'mkinitcpio-nfs-utils'
+ 
   - 'modemmanager'
   - 'mtools'
 
@@ -119,12 +144,9 @@ packages:
   - 'nilfs-utils'
   - 'ntfs-3g'
 
-  - 'openconnect'
-  - 'openssh'
-  - 'openvpn'
+
   - 'os-prober'
 
-  - 'pacman'
   - 'parted'
   - 'partimage'
   - 'pciutils'
@@ -136,7 +158,6 @@ packages:
   - 'psmisc'
   - 'pv'
 
-  - 'samba'
   - 'sed'
   - 'shadow'
   - 'systemd'
