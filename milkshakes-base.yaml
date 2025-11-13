@@ -2,7 +2,7 @@ track: 'custom'
 
 packages:
 
-  # linux core systems
+# linux core systems
   - 'coreutils'
   - 'dmidecode'
   - 'linux-zen'
@@ -10,7 +10,8 @@ packages:
   - 'linux-atm'
   - 'linux-firmware'
   - 'linux-firmware-marvell'
-
+  - 'amd-ucode'
+  - 'b43-fwcutter'
 # Network and Internet core utils
   - 'bind'                        #DNS protocol
   - 'broadcom-wl-dkms'            #broadcam drivers
@@ -21,32 +22,23 @@ packages:
   - 'openconnect'
   - 'openssh'
   - 'openvpn'
-
 # arch core systems
   - 'arch-install-scripts'
   - 'archlinux-keyring'
   - 'base-devel'
-
   - 'mkinitcpio'
   - 'mkinitcpio-archiso'
   - 'mkinitcpio-nfs-utils'
   - 'pacman'
-
-
-  - 'amd-ucode'
-  - 'b43-fwcutter'
-
-  # BlendOS Components
+# BlendOS Components
   - 'blend'
   - 'blend-settings'
   - 'filesystem-blend'
-
 # Terminal Emulators, Shells, Editors, CLI Etc.
   - 'bash'
   - 'bash-completion'
   - 'findutils'
-
-  # Expanded and oxidized Terminal features
+# Expanded and oxidized Terminal features
   - 'nushell'                      #oxidized modern shell
   - 'zellij'                       #oxidized multiplexer
   - 'starship'                     #oxidized shell prompt
@@ -70,23 +62,15 @@ packages:
   - 'systeroid'                    #oxidized systctl(8)
   - 'zoxide'                       #oxidized, modern cd swap
   - 'dust'                         #oxidized du swap, disk usage
-
 # Homeserver components
   - 'samba'
   - 'gvfs-smb'
   - 'gvfs-mtp'
   - 'gvfs-nfs'
   - 'gvfs-wsdd'
-  
-  
-
-
-
-
-
 # accessability features
   - 'brltty'                      # terminal screen-reader support
-
+# Filesystem utils
   - 'btrfs-progs'
   - 'bzip2'
   - 'cryptsetup'
@@ -98,7 +82,8 @@ packages:
   - 'f2fs-tools'
   - 'fatresize'
   - 'file'
-  
+
+# Unsorted still
   - 'flatpak'
   - 'fwupd'
 
@@ -125,10 +110,7 @@ packages:
   - 'lshw'
   - 'libfido2'
   - 'libusb-compat'
-
-
-
-  
+ 
   - 'man-db'
   - 'man-pages'
   - 'mc'
@@ -143,7 +125,6 @@ packages:
   - 'nfs-utils'
   - 'nilfs-utils'
   - 'ntfs-3g'
-
 
   - 'os-prober'
 
@@ -168,13 +149,6 @@ packages:
   - 'util-linux'
   
   - 'xz' 
-  
-  
-  
-  
-  
-  
-  
   
   - 'rsync'
   - 'smartmontools'
@@ -204,8 +178,6 @@ aur-packages:
   - 'rip2-git'              #oxidized (>>rm)
   - 'system76-power'        #oxidized power profiles daemon
   - 'tuckr'                 #oxidized dot-file mgmt
-#  - 'rooster'               #oxidized password mgmt
-#  - 'cloak'                 #oxidized OTP gen !!INSTALLER BROKEN!!
   - 'xcp'                   #oxidized modernized cp extension
   - 'disktui'               #oxidized TUI partition manager 
 
