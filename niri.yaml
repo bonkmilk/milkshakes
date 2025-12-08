@@ -60,6 +60,8 @@ packages:
   - 'fuzzel'
   - 'fprintd'
   - 'kdeconnect'
+  - 'v4l2loopback-dkms'
+  - 'qt6-wayland'
 
   
 aur-packages:
