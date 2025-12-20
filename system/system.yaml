@@ -1,0 +1,10 @@
+arch-repo: 'https://geo.mirror.pkgbuild.com'
+impl: 'https://github.com/bonkmilk/milkshakes/raw/main'
+repo: 'https://pkg-repo.blendos.co'
+track: 'niri'
+
+packages:
+
+services:
+
+commands:
