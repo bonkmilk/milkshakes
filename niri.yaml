@@ -71,11 +71,6 @@ aur-packages:
   - 'popsicle'                        #oxidized
   - 'bazaar'                          #flathub store
   - 'polkit-explorer-git'             #policypermission GUI
- 
-# temporary list for future downstream tracks
-  - 'steam-native-runtime'            #build steam native libraries
-  - 'proton-cachyos-slr'
-  - 'protonfixes'
   
 services:
   - 'sddm'
