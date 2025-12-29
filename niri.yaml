@@ -64,12 +64,12 @@ packages:
   - 'qt6-wayland'
 
   
-# aur-packages:
-  # - 'wl-clipboard-rs'                 #oxidized wayland clipboard utility
+aur-packages:
+  - 'wl-clipboard-rs'                 #oxidized wayland clipboard utility
   # - 'kickoff-git'                     #oxidized launcher
   # - 'blueberry-wayland'               #(s)way/wlroots bluetooth GUI
   # - 'popsicle'                        #oxidized
-  # - 'bazaar'                          #flathub store
+  - 'bazaar'                          #flathub store
   # - 'polkit-explorer-git'             #policypermission GUI
   
 services:
