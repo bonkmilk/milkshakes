@@ -173,13 +173,13 @@ packages:
   - 'cups'
   - 'ttf-jetbrains-mono'
   
-# aur-packages:
-  # - 'paru'                  #oxidized
-  # - 'rip2-git'              #oxidized (>>rm)
+aur-packages:
+  - 'paru'                  #oxidized
+  - 'rip2-git'              #oxidized (>>rm)
   # - 'system76-power'        #oxidized power profiles daemon
-  # - 'tuckr'                 #oxidized dot-file mgmt
-  # - 'xcp'                   #oxidized modernized cp extension
-  # - 'disktui'               #oxidized TUI partition manager 
+  - 'tuckr'                 #oxidized dot-file mgmt
+  - 'xcp'                   #oxidized modernized cp extension
+  - 'disktui'               #oxidized TUI partition manager 
 
 services:
   - 'cups'
